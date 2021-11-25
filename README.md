@@ -1,4 +1,4 @@
-#**Ideia Geral**
+# **Ideia Geral**
 
 Este programa se divide em 4 partes:
 * extract.py - extrai os dados através de um loop e verificação do status 
@@ -13,18 +13,18 @@ Na chamada da função extract_data() no arquivo server.py pode ser regulado
 de qual página deseja começar a coleta de dados. Deixei setado pra 9950 pra que
 tivesse um resultado rápido mas não muito pequeno.
 
-#**Bibliotecas utilizadas**
+# **Bibliotecas utilizadas**
 
 resquest - pegar o conteudo da API
 json - carregar os dados json
 flask - criação da API
 
-#**Utilização**
+# **Utilização**
 
 Apos rodar o arquivo main.py pode se acessar o localhost:5000 aonde estarão todos
 os dados.
 
-#**Considerações**
+# **Considerações**
 
 Foi realizada uma tentativa de integrar o python com os valores organizados,
 assim eles seriam armazenados lá e posteriormente criar a API a partir deles. Seria feito desta
@@ -34,7 +34,7 @@ Em conjunto com os códigos tem um arquivo em csv e json com aproximadamente 850
 O arquivo connectio.py tem a função de colocar os dados organizados no banco de dados de forma
 automatizada.
 
-#**Conclusão**
+# **Conclusão**
 
 Neste projetos, consegui atingir grande parte dos meus objetivos, mas infelizmente não todos eles
 caso seja possível peço que me recomendem formas de melhor e uma solução para criar a páginação da API
