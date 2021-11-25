@@ -1,0 +1,34 @@
+Cada classe deve fazer o que está dentro de suas responsabilidades.
+Atentar a escalabilidade, flexibilidade, manutenibilidade e legibilidade.
+Tornei em orientação a objetivos pra garantir uma melhor organização do projeto.
+
+
+Extract
+    Consumir toda a API de dados e salvar
+        Tornei os bytes pegos pela requisição em json
+        Trabalhei com os dados da coluna numbers.
+    Automatizar este processo, podem ser muitas páginas.
+        Utilizei um loop pra concatenar os arrays
+    Verificar o consumo da API
+        Fiz um teste manual de parada do loop e verificação de saída
+
+Trasnform
+    Criar um algoritmo de ordenação para organizar os dados
+        Fiz a comparação entre 4 algoritmos de ordenação
+        Foi escolhido o timsort pra implementação, pelos seguintes motivos:
+            É um algoritmo com excelente desempenho pra listas grandes
+            Possui uma ideia interessante de ordenação
+            Eu queria aprender mais sobre ele
+    Não tem requisito pra ordenação
+        Fiz a ordenação em ordem crescente
+    Após o transform adicionar os dados em um banco de dados
+        Assim não tem necessidade de ficar consumindo a API toda vez
+        E com isso poderei organizar as pages da API
+    Verificar o resultado final
+
+Load
+    Disponibilizar os dados modificados através de uma API
+    Melhorar a visualização do cliente com paginação
+        Não achei uma forma de implementar um offset
+        Vou criar uma forma caseira de configurar a páginação
+    Verificar o funcionamento da API
