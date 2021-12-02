@@ -36,11 +36,8 @@ automatizada.
 
 # **Conclusão**
 
-Neste projetos, consegui atingir grande parte dos meus objetivos, mas infelizmente não todos eles
-caso seja possível peço que me recomendem formas de melhor e uma solução para criar a páginação da API
-pois não consegui achar uma explicação concreta.
+Neste projetos, consegui atingir grande parte dos meus objetivos, mas infelizmente não todos eles.
+Como por exemplo, a páginação de saída de APIs e uma forma mais eficiente de trativa de erros. Este projeto
+ainda não está conclupido então planejo adicionar testes automátizados assim que possível.
 Meu cronograma de funções está presente no arquivo projeto.txt, ele foi mais um guia para me
 orientar no que devia ser feito.
-
-Muito obrigado pelo projeto, foi de grande ajuda para minha evolução. Peço que se puderem
-me deem uma orientação de melhoria e principalmente sobre uma forma de criar a páginação de uma API.
